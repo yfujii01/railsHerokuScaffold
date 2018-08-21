@@ -85,6 +85,7 @@ $ git commit -m 'add root page'
 $ APP_NAME_HEROKU=yf-rails-heroku-start
 $ heroku create ${APP_NAME_HEROKU}
 $ git push heroku master
+$ heroku run rails db:migrate
 ```
 
 - 動作確認
